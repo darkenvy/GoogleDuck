@@ -1,0 +1,98 @@
+/* Font Settings */
+body {
+  font-family: arial, sans-serif; 
+    line-height: 1.4;
+    word-wrap: break-word;
+}
+
+h2 {
+    font-size: 18pt;
+}
+
+
+dib.result__snippet {
+  font-size: small;
+}
+
+/* Result Favicon hide */
+.result__icon {
+  display: none;
+}
+
+/* Checkmark */
+.result__check {
+  display: none;
+}
+
+/* ---------------------- */
+/* -    Header    - */
+/* ---------------------- */
+
+/* Header Color */
+.header-wrap.js-header-wrap {
+  background: #f1f1f1;
+}
+
+/* Searchbar */
+.search--header {
+    background-color: #fff;
+}
+
+/* Top bar removal */
+.header-wrap.js-header-wrap {
+  border-top: 0;;
+}
+
+.zcm {
+  font-size: small;
+    
+}
+
+a:link.zcm__link {
+    color: #777;
+}
+
+a.zcm__link.is-active {
+  color: #4285f4;
+}
+
+.zcm__link.is-active {
+  border-bottom: solid 1px #4285f4;
+}
+
+.zcm__item {
+  padding-right: 10px;
+}
+
+/* ---------------------- */
+/*  Header Modification - */
+/* ---------------------- */
+.header {
+   height: 50px;
+   min-height: inherit;
+}
+
+#duckbar {
+  margin-top: 20px;
+}
+
+#links {
+    margin-top: 60px;
+}
+
+
+/* ---------------------- */
+
+/* Link Color */
+a:link {
+  color: #1a0dab;
+}
+
+.result__a:visited, a:visited {
+  color: #609;
+}
+
+/* Green URL */
+.result__extras__url a {
+    color: #006621 !important;
+}
